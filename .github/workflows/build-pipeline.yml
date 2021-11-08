@@ -20,7 +20,7 @@ jobs:
       # Step 3 - Add tests and linting here
   deploy:
    needs: build
-    runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 14.x
